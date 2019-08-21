@@ -25,7 +25,7 @@ Diary GUI used to make a diary entry and look at the diary:
 ## Running
 ### Run App
  * Just click the app (tk_diarygui.exe) to run it
-    * Alternatively, go to file directory and type 'start tk_diarygui. 
+    * Alternatively, go to file directory and type 'start tk_diarygui.exe
 
 
 ### Build the App on your device: 
@@ -46,7 +46,7 @@ Navigate to directory containing the python scripts and enter the following comm
     * Don't need to run this, as mentioned above.
     * More annoying to use this, as we need to use underscores for spaces. Whereas in GUI we can just rite normally in the textbox
     
-#### Run Misc Python Codes
+##### Run Misc Python Codes
  * python strrep_example.py --input my_text_use_underscores_for_whitespaces
     * Just an example of the process we use to change underscores from the input into whitespaces
     * Do it this way to try and minimize the amount of code without having to input any text into anything other than the GUI, the whole point is to interact with a GUI not the terminal 
@@ -55,7 +55,6 @@ Navigate to directory containing the python scripts and enter the following comm
 
 
 ## Options
-
 Enable the following buttons:
     * btn1 - responsive button that thanks the user for their writing, but does nothing else
     * btn4 - runs createnewdiary() function allowing you to create and name a new txt file 
