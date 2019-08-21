@@ -39,17 +39,19 @@ Navigate to directory containing the python scripts and enter the following comm
 -F wraps the dist up into the one simple .exe file
 -i assigns the book_icon.ico image as the app's desktop icon (need to do this with an ico file, can find or convert imgs to this online)
 
-### Run Python Codes 
+### Run Main Python Codes 
  * **python tk_diarygui.py**
     * initializes the GUI, can run the write2diary.py file just by writing in the text and clicking the blue 'write' button
  * **python write2diary.py --input my_text_use_underscores_for_whitespaces**
     * Don't need to run this, as mentioned above.
     * More annoying to use this, as we need to use underscores for spaces. Whereas in GUI we can just rite normally in the textbox
+    
+#### Run Misc Python Codes
  * python strrep_example.py --input my_text_use_underscores_for_whitespaces
     * Just an example of the process we use to change underscores from the input into whitespaces
     * Do it this way to try and minimize the amount of code without having to input any text into anything other than the GUI, the whole point is to interact with a GUI not the terminal 
-
-book_icon.ico is the icon image for the app when we put it on the desktop homepage
+ * python write2diary.py --input my_text_use_underscores_for_whitespaces
+    * Lesser version of write2diary.py, this version excludes the automatic writing of the date/time 
 
 
 ## Options
@@ -78,5 +80,7 @@ Build not included in github repo due to upload size restrictions, should work f
 
 ## Misc 
 We use append option "a" to write to the file so we dont erase previous entries, replace with "w" to erase and rewrite entire diary. 
+
+book_icon.ico is the icon image for the app when we put it on the desktop homepage
 
 We make executable using pyinstaller, you can use any you'd like  
