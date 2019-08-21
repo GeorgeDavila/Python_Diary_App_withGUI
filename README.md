@@ -19,8 +19,8 @@ Diary GUI used to make a diary entry and look at the diary:
  * python 3 
  * pyinstaller 
     * Only if you want to make/modify your own app instead of running mine
- *tkinter
-    *Should be installed with python, can just run 'pip install tkinter' otherwise 
+ * tkinter
+    * Should be installed with python, can just run 'pip install tkinter' otherwise 
 
 ## Running
 ### Run App
