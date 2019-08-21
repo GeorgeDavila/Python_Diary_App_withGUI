@@ -30,16 +30,19 @@ Diary GUI used to make a diary entry and look at the diary:
 
 ### Build the App on your device: 
 Navigate to directory containing the python scripts and enter the following commandto create an executable application:
-pyinstaller -w -F -i book_icon.ico tk_diarygui.py
+**pyinstaller -w -F -i book_icon.ico tk_diarygui.py**
  * Drag the executable out of the dist directory and into your main diary_app directory
  * You can now run your .exe app from terminal or clicking on it
  * You can even make a desktop shortcut and run it from there!
     
+-w stops the command terminal from opening when we run the desktop app
+-F wraps the dist up into the one simple .exe file
+-i assigns the book_icon.ico image as the app's desktop icon (need to do this with an ico file, can find or convert imgs to this online)
 
 ### Run Python Codes 
- * python tk_diarygui.py 
+ * **python tk_diarygui.py**
     * initializes the GUI, can run the write2diary.py file just by writing in the text and clicking the blue 'write' button
- * python write2diary.py --input my_text_use_underscores_for_whitespaces
+ * **python write2diary.py --input my_text_use_underscores_for_whitespaces**
     * Don't need to run this, as mentioned above.
     * More annoying to use this, as we need to use underscores for spaces. Whereas in GUI we can just rite normally in the textbox
  * python strrep_example.py --input my_text_use_underscores_for_whitespaces
