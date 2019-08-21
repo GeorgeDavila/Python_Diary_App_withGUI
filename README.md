@@ -8,9 +8,11 @@ Of course one could easily merge everything into one script but the purpose of t
 We make a diary for a change of pace from the more common numerical application one might see in python 
 
 Diary GUI and desktop shortcut:
+
 ![Alt Text](screenshots/diary_app_img1.png)
 
 Diary GUI used to make a diary entry and look at the diary:
+
 ![Alt Text](screenshots/diary_app_img2.png)
 
 ## Dependencies
